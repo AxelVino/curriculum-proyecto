@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+body {
+  font: 18px "Tinos", sans-serif;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  background: #f0f2f5;  
+  transition: .5s ease all;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+header{
+  padding: 0em 2em;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  display: flex;
+}
+.cajaSwitch{
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+
+}
+.botonLugar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  padding: 0em 2em;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+.tituloRedes{
+  justify-content: right;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.redesSociales{
+  padding: 0em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+.redesSociales li a{
+  background-color: black;
+  color: white;
+  display: block;
+  font-size: 30px;
+  border-radius: 20%;
+  outline: none;
+  border: none;
+  line-height: 55px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, .4);
+  width: 55px;
+  height: 55px;
+  margin: 15px;
+  transition: .2s;
+}
+li a:hover{
+  transform: translateY(-3px) scale(1.05);
+  filter: none;
+}
+.facebook:hover{
+  background: #3b5999;
+}
+.linkedin:hover{
+  background: #0077b5;
+}
+.github:hover{
+  background: #6e5494;
+}
+
+.curriculum {
+    border-radius: 100px;
+    border: 2px solid #ffffff40;
+    padding: 2rem 2rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, .4);
+    width: 75%;
+    margin: auto;
+    display: flex;
+    min-width: 200px;
+    max-width: 1200px;
+    min-height: 100px;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    gap: 20px;
+  }
+.curriculum h3{
+    display: flex;
+    align-items: center;
+    background-color: #9c7dcc;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.curriculum__izquierda{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  .curriculum__derecha{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+.curriculum__foto{
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  z-index: 1;
+}
+
+.curriculum__foto img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover; 
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, .4);
+}
+
+.curriculum__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.nombre{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.ocupacion{
+  margin:auto;
+  padding:10px;
+  font-size: 25px;
+}
+.curriculum__datos{
+  border-bottom: 5px solid rgb(156, 125, 204);
+  border-top: 5px solid rgb(156, 125, 204);
+  align-items: center;
+  justify-content: center; 
+}
+.curriDatos{
+padding: 0em 0em;
+text-align: left;
+list-style-type: none;
+font-size: 20px;
+}
+.curriDatos li{
+  padding: 10px 0;
+}
+.curriDatos li i{
+  color: rgb(156, 125, 204);
+}
+.curriculum__sobremi{
+flex-wrap: wrap;
+justify-content: right;
+flex-direction: column;
+}
+.sobremi{
+  font-size: 15px;
+}
+.curriculum__competencias{
+  justify-content: baseline;
+}
+.competencias{
+  font-size: 20px;
+  padding: 0px 0px 0px 20px;
+}
+
+.conocimientos h4{
+  margin:0;
+  color:#6e5494;
+  font-size: 20px;
+}
+.detalle{
+  font-size: 15px;
+}
+.lista li{
+  align-items: center;
+}
+.lista li span{
+  padding: 1em 0em;
+  font-size: 20px;
+}
+.experiencia div p{
+  font-size: 15px;
+}
+.experiencia h4{
+  color:#6e5494;
+  margin:0;
+  font-size: 20px;
+}
+.experiencia h5{
+  font: 15px;
+  margin:0;
+}
+.estudios h5{
+  font-size: 15px;
+}
+.estudios h4{
+  color:#6e5494;
+  font-size: 20px;
+}
+
+.descripcion li span{
+font-size: 15px;
+}
+.idiomas h4{
+  color:#6e5494;
+font-size: 20px;
+}
+.idiomas h5{
+  font-size: 15px;
+  }
+
